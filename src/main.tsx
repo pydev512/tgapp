@@ -3,12 +3,13 @@ import App from './App.tsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 
+
 import WebApp from '@twa-dev/sdk'
 
 WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <BrowserRouter basename={'pydev512.github.io/tgapp'}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
 )
