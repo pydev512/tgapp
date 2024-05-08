@@ -9,8 +9,8 @@ function App() {
   return (
     <Routes>
       <Route   path='/home'  element={<Home/>} />
-      <Route   path='/exchange'  element={<Exchange/>} />
-      <Route   path='/swap'  element={<Swap/>} />
+      {/* <Route   path='/exchange'  element={<Exchange/>} />
+      <Route   path='/swap'  element={<Swap/>} /> */}
      
     </Routes>
   )
