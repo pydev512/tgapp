@@ -8,7 +8,7 @@ import WebApp from '@twa-dev/sdk'
 WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <BrowserRouter basename={'https://pydev512.github.io/tgapp/'}>
+    <BrowserRouter basename={'pydev512.github.io/tgapp'}>
       <App />
     </BrowserRouter>
 )
