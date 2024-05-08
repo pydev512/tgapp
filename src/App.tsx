@@ -1,13 +1,18 @@
-// import { useState } from 'react'
+import { Route, Routes } from "react-router-dom";
 import './App.css'
-
+import Home from "./pages/home";
+import Exchange from "./pages/exchange";
+import Swap from "./pages/swap";
 
 function App() {
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <Routes>
+      <Route   path='/home'  element={<Home/>} />
+      <Route   path='/exchange'  element={<Exchange/>} />
+      <Route   path='/swap'  element={<Swap/>} />
+     
+    </Routes>
   )
 }
 
