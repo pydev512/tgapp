@@ -1,11 +1,11 @@
 import React from 'react';
+import Navbar from '../components/navbar';
 
 const Swap: React.FC = () => {
   return (
-    <div>
-      <h2>Hello, World!</h2>
-      <p>This is a simple React component without any props.</p>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 };
 
